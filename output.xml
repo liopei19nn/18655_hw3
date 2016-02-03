@@ -1,0 +1,127 @@
+public class Author  { 
+    
+    /**
+     * Private Field
+     */
+    
+    private String firstName;
+    private String lastName;
+    private String affiliation;
+    private String phoneNumber;
+    private String email;
+    private String title;
+    private String researchInterests;
+    /**
+     * Getter of  firstName
+     */
+    
+    public String getFirstName( ) {
+        return this.firstName;
+    }
+    
+    /**
+     * Getter of  lastName
+     */
+    
+    public String getLastName( ) {
+        return this.lastName;
+    }
+    
+    /**
+     * Getter of  affiliation
+     */
+    
+    public String getAffiliation( ) {
+        return this.affiliation;
+    }
+    
+    /**
+     * Getter of  phoneNumber
+     */
+    
+    public String getPhoneNumber( ) {
+        return this.phoneNumber;
+    }
+    
+    /**
+     * Getter of  email
+     */
+    
+    public String getEmail( ) {
+        return this.email;
+    }
+    
+    /**
+     * Getter of  title
+     */
+    
+    public String getTitle( ) {
+        return this.title;
+    }
+    
+    /**
+     * Getter of  researchInterests
+     */
+    
+    public String getResearchInterests( ) {
+        return this.researchInterests;
+    }
+    
+    /**
+     * Setter of  firstName
+     */
+    
+    public void  setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+    
+    /**
+     * Setter of  lastName
+     */
+    
+    public void  setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+    
+    /**
+     * Setter of  affiliation
+     */
+    
+    public void  setAffiliation(String affiliation) {
+        this.affiliation = affiliation;
+    }
+    
+    /**
+     * Setter of  phoneNumber
+     */
+    
+    public void  setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+    
+    /**
+     * Setter of  email
+     */
+    
+    public void  setEmail(String email) {
+        this.email = email;
+    }
+    
+    /**
+     * Setter of  title
+     */
+    
+    public void  setTitle(String title) {
+        this.title = title;
+    }
+    
+    /**
+     * Setter of  researchInterests
+     */
+    
+    public void  setResearchInterests(String researchInterests) {
+        this.researchInterests = researchInterests;
+    }
+    
+}
+    
